@@ -47,8 +47,15 @@ a {
 .btn:hover {
   opacity: 0.8;
 }
+.fixed-header {
+  background: #e6f0ff;
+  padding-bottom: 10px;
+  position: sticky;
+  top: -25px;
+  z-index: 1;
+}
 /* =====================Header====================== */
-.header {
+.hero-wrap {
   position: relative;
   background: #e6f0ff;
   height: 100vh;
@@ -85,7 +92,7 @@ a {
 }
 /* hero */
 .hero {
-  margin-top: 138px;
+  padding-top: 138px;
 }
 .hero .subtitle {
   color: #687690;
