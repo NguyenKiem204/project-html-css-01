@@ -147,6 +147,24 @@ a {
   align-items: center;
   margin-top: 70px;
 }
+.clients .images a{
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 40px;
+  border-radius: 20px;
+}
+.clients .images .img-amazon{
+  height: 90px;
+  width: 170px;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.3;
+}
+.clients .images a:hover{
+  box-shadow:1px 1px 5px 5px rgba(0, 0, 0, 0.06);
+
+}
 /* ====================guides============= */
 .guide {
   margin-top: 40px;
