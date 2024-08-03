@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/introjs.css"
+        integrity="sha512-4OzqLjfh1aJa7M33b5+h0CSx0Q3i9Qaxlrr1T/Z+Vz+9zs5A7GM3T3MFKXoreghi3iDOSbkPMXiMBhFO7UBW/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/sigin.css" />
+</head>
+
+<body>
+    <div class="background-login">
+        <div class="box-login">
+            <div class="content">
+                <h1>Login</h1>
+                <form class="login-sign" action="#!" method="post">
+                    <div class="item1">
+                        <span><input data-intro="Điền email vào đây" class="text-for" type="text" name="email"
+                                placeholder="Email" /><i class="fa-solid fa-envelope"></i></span>
+                    </div>
+                    <div class="item1">
+                        <span><input data-intro="Điền mật khẩu ở đây" class="text-for" type="password" name="password"
+                                placeholder="Password" /><i class="fa-solid fa-lock"></i></span>
+                    </div>
+                    <div class="item2">
+                        <span><input data-intro="Lưu mật khẩu cho lần đăng nhập sau" type="checkbox" name="remember"
+                                id="remember" /><label  for="remember">Remember me</label></span><a data-intro="Nếu bạn quên mật khẩu, click vào đây" href="#!">Forgot
+                            password?</a>
+                    </div>
+                    <input data-intro="Nộp ở đây" class="submit" type="submit" name="submit" value="Login" />
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/intro.js" integrity="sha512-f26fxKZJiF0AjutUaQHNJ5KnXSisqyUQ3oyfaoen2apB1wLa5ccW3lmtaRe2jdP5kh4LF2gAHP9xQbx7wYhU5w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    introJs().start()
+</script>
+
+</html>
